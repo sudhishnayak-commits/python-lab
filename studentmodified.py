@@ -1,0 +1,15 @@
+name=input("Enter the name of the student:")
+usn=input("Enter the usn:")
+m1=int(input("Enter the mark in physics:"))
+m2=int(input("Enter the mark in maths:"))
+m3=int(input("Enter the mark in cs:"))
+total=m1+m2+m3
+avg=total/3
+print("\n--------student details---------")
+print(f"Nane    :{name}")
+print(f"USN     :{usn}")
+print(f"Course 1:{m1:.2f}")
+print(f"Course 2:{m2:.2f}")
+print(f"Course 3:{m3:.2f}")
+print(f"Total marks:{total:.2f}")
+print(f"average:{avg:.2f}")                                      

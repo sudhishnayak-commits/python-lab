@@ -1,0 +1,9 @@
+l1=['red',10,30,'blue'] 
+print(l1)
+l1.append(40)
+l1.append('grey')
+print(l1)
+l1.insert(2,20)
+print(l1)
+l1.extend(['violet',50,'white'])
+print(l1)
